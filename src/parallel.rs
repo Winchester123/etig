@@ -1331,7 +1331,8 @@ fn input_25() -> i32 {
 }
 
 
-
+//IIT2013025, IIT2013044: Check whether two nodes of a graph are connected or not
+//Input graph should be always in the form of 0s and 1s
 pub fn input_1111(mat : & mut [[i32;350];350], n:i32) -> bool{
 	let mut v:Vec<Vec<i32>> = Vec::new();
 	for i in 0..n{
